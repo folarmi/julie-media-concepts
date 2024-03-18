@@ -9,7 +9,7 @@ type ExperienceCardProps = {
 
 const ExperienceCard = ({ date, role, tool, desc }: ExperienceCardProps) => {
   return (
-    <div className="bg-primary text-white w-96 p-6 rounded-xl flex flex-col gap-y-4 mr-6">
+    <div className="bg-primary text-white w-[345px] md:w-96 p-6 rounded-xl flex flex-col gap-y-4 mr-6 mb-6 md:mb-0">
       <p className="text-xl text-offWhite">{date}</p>
       <p className="text-secondaryTwo font-bold text-[26px]">{role}</p>
       <p className="text-base text-offWhite">{tool}</p>

@@ -7,16 +7,16 @@ export const imageStyle = {
 
 const Hero = () => {
   return (
-    <div className="px-40 py-24 bg-secondary flex justify-between items-center">
+    <div className="px-10 md:px-40 py-24 bg-secondary md:flex justify-between items-center">
       <section className="flex flex-col">
         <p className="text-secondaryTwo text-base">Hello, Welcome</p>
         <p className="text-[42px] text-white font-bold">My name is Juliet</p>
-        <p className="text-ashTwo text-base w-[466px] leading-7">
+        <p className="text-ashTwo text-base w-80 text-justify md:w-[466px] leading-7">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
-        <div className="bg-secondaryTwo w-[123px] px-5 py-2 mt-4">
+        <div className="bg-secondaryTwo w-[123px] px-5 py-2 mt-4 mb-6 md:mb-0">
           <p className="text-base whitespace-nowrap">Contact Me</p>
         </div>
       </section>

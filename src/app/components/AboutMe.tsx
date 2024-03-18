@@ -9,7 +9,7 @@ const imageStyle = {
 const AboutMe = () => {
   return (
     <div
-      className="bg-primary px-40 py-24 flex justify-between items-center"
+      className="bg-primary px-10 md:px-40 py-24 md:flex justify-between items-center"
       id="about"
     >
       <div className="bg-primary border-8 border-secondaryTwo rounded-3xl h-[300px] w-[300px] relative">
@@ -22,16 +22,16 @@ const AboutMe = () => {
         />
       </div>
 
-      <section className="flex flex-col">
+      <section className="flex flex-col mt-32 md:mt-0">
         <p className=" text-[42px] text-white font-bold">
           About <span className=" text-secondaryTwo">Me</span>
         </p>
-        <p className="text-ashTwo text-base w-[466px] leading-7">
+        <p className="text-ashTwo text-base w-[350px] text-justify md:w-[466px] leading-7">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
-        <p className="text-ashTwo text-base w-[466px] leading-7 mt-4">
+        <p className="text-ashTwo text-basew-[350px] text-justify md:w-[466px] leading-7 mt-4">
           Passages ofLorem Ipsum available, but the majority have suffered
           alteration in some form, by injected humour.
         </p>

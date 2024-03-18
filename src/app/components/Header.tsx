@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="h-16 bg-primary flex items-center text-white px-40 py-5 sticky top-0">
+    <nav className="hidden h-16 bg-primary md:flex items-center text-white px-40 py-5 sticky top-0">
       <p className="mr-60 whitespace-nowrap">Julie Media Concept</p>
 
       <div className="flex justify-around items-center w-full uppercase text-base text-ash">

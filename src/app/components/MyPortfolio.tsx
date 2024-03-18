@@ -4,18 +4,18 @@ import React from "react";
 const MyPortfolio = () => {
   return (
     <div
-      className="bg-primary px-40 py-24 flex flex-col items-center"
+      className="bg-primary px-10 md:px-40 py-24 flex flex-col items-center"
       id="portfolio"
     >
-      <p className=" text-[42px] text-white font-bold">
+      <p className="text-[42px] text-white font-bold">
         My <span className=" text-secondaryTwo">Portfolio</span>
       </p>
-      <p className="text-ashTwo text-base w-[466px] leading-7 text-center my-8">
+      <p className="text-ashTwo text-base w-96 md:w-[466px] leading-7 text-center my-8">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour.
       </p>
 
-      <section className="flex items-center">
+      <section className="md:flex items-center">
         <Image
           src="/imgOne.jpg"
           alt="work sample"
@@ -27,7 +27,7 @@ const MyPortfolio = () => {
           }}
         />
 
-        <div className="flex items-center flex-wrap gap-y-6 gap-x-6">
+        <div className="flex items-center flex-wrap gap-y-6 gap-x-6 mt-6 mb:mt-0">
           <Image
             src="/imgTwo.jpg"
             alt="work sample"
