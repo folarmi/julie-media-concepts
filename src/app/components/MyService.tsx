@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { ServiceCard } from ".";
 
@@ -8,29 +9,29 @@ const MyService = () => {
         My <span className=" text-secondaryTwo">Services</span>
       </p>
 
-      <p className="text-ashTwo text-base w-[350px] md:w-[466px] leading-7 mt-4">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour.
+      <p className="text-ashTwo text-justify text-base w-[350px] md:w-[466px] leading-7 mt-4">
+        Welcome to Julie Media Concepts, where we specialize in providing
+        top-notch designs. With a focus on delivering excellence and exceeding
+        expectations, we're here to meet your needs and elevate your projects to
+        new heights.
       </p>
 
-      <div className="mt-6 md:flex items-center justify-between ">
+      <div className="mt-6 md:flex items-center justify-between">
+        <ServiceCard
+          title="Graphic Design"
+          desc="Transform your ideas into visually stunning creations with our exceptional graphic design expertise, crafted to captivate and inspire your audience"
+          icon="/graphicDesign.png"
+        />
         <ServiceCard
           title="Digital Marketing"
-          desc="There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some."
+          desc="Elevate your online presence with our expert digital marketing skills, designed to boost your visibility and drive results."
           icon="/digital.png"
         />
         <ServiceCard
-          title="Web Development"
-          desc="There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some."
+          title="Content Management"
+          desc="
+          Maximize your brand's online impact with our proficient social media management expertise, ensuring engaging content and strategic outreach across all platforms"
           icon="/webdev.png"
-        />
-        <ServiceCard
-          title="Creative Graphic Design"
-          desc="There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some."
-          icon="/graphicDesign.png"
         />
       </div>
     </div>
