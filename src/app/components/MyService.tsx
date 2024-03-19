@@ -31,7 +31,7 @@ const MyService = () => {
           title="Content Management"
           desc="
           Maximize your brand's online impact with our proficient social media management expertise, ensuring engaging content and strategic outreach across all platforms"
-          icon="/webdev.png"
+          icon="/webDev.png"
         />
       </div>
     </div>

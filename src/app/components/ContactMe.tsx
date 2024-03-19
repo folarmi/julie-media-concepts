@@ -139,7 +139,7 @@ const ContactMe = () => {
         />
         <Image
           alt="social media icons"
-          src="/pinterest.jpg"
+          src="/pinterest.png"
           width={24}
           height={24}
         />

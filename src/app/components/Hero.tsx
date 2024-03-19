@@ -22,7 +22,7 @@ const Hero = () => {
       </section>
 
       <Image
-        src="/babe.jpg"
+        src="/babe.JPG"
         alt="A picture of babe"
         width={300}
         height={300}

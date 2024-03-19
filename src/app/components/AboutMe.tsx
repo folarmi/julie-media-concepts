@@ -14,7 +14,7 @@ const AboutMe = () => {
     >
       <div className="bg-primary border-8 border-secondaryTwo rounded-3xl h-[300px] w-[300px] relative">
         <Image
-          src="/babe.jpg"
+          src="/babe.JPG"
           alt="A picture of babe"
           width={300}
           height={50}
