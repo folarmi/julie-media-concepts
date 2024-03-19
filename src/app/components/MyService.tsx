@@ -19,18 +19,18 @@ const MyService = () => {
       <div className="mt-6 md:flex items-center justify-between">
         <ServiceCard
           title="Graphic Design"
-          desc="Transform your ideas into visually stunning creations with our exceptional graphic design expertise, crafted to captivate and inspire your audience"
+          desc="Transform your ideas into visually stunning creations with our exceptional graphic design expertise, crafted to captivate and inspire your audience."
           icon="/graphicDesign.png"
         />
         <ServiceCard
           title="Digital Marketing"
-          desc="Elevate your online presence with our expert digital marketing skills, designed to boost your visibility and drive results."
+          desc="Maximize your online presence with our cutting-edge digital marketing skills, strategically tailored to elevate your brand's visibility and drive measurable growth."
           icon="/digital.png"
         />
         <ServiceCard
           title="Content Management"
           desc="
-          Maximize your brand's online impact with our proficient social media management expertise, ensuring engaging content and strategic outreach across all platforms"
+          Maximize your brand's online impact with our proficient social media management expertise, ensuring engaging content and strategic outreach across all platforms."
           icon="/webDev.png"
         />
       </div>

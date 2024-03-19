@@ -46,7 +46,7 @@ const ServiceCard = ({ title, icon, desc }: ServiceCardProps) => {
         Go to this step by step guideline process on how to certify for your
         weekly benefits:
       </p> */}
-      <p className="text-ashTwo text-justify flex-1">{desc}</p>
+      <p className="text-ashTwo text-justify w-72 flex-1 leading-7">{desc}</p>
     </div>
   );
 };

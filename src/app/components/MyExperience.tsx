@@ -9,8 +9,9 @@ const MyExperience = () => {
       </p>
 
       <p className="text-ashTwo text-base w-80 md:w-[466px] leading-7 mt-4">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour.
+        Harnessing a wealth of diverse experiences, I bring a unique perspective
+        and a proven track record of success to every project, ensuring
+        unparalleled results and client satisfaction.
       </p>
 
       <section className="mt-14 md:flex items-center">
