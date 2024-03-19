@@ -25,13 +25,16 @@ const ContactMe = () => {
             </span>
           </p>
           <p className="text-secondaryTwo text-base">
-            Phone: <span className="text-white">+01 123 456 789</span>
+            Phone: <span className="text-white">+234 907 370 8364</span>
           </p>
           <p className="text-secondaryTwo text-base">
-            Email: <span className="text-white"> abc.xyz@gmail.com</span>
+            Email: <span className="text-white"> juliemedia@gmail.com</span>
           </p>
           <p className="text-secondaryTwo text-base">
-            Website: <span className="text-white">www.abc.xyz.com</span>
+            Website:{" "}
+            <span className="text-white">
+              www.julie-media-concepts.vercel.app/
+            </span>
           </p>
         </div>
 
