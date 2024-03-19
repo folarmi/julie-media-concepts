@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 
@@ -10,9 +11,10 @@ const MyPortfolio = () => {
       <p className="text-[42px] text-white font-bold">
         My <span className=" text-secondaryTwo">Portfolio</span>
       </p>
-      <p className="text-ashTwo text-base w-96 md:w-[466px] leading-7 text-center my-8">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour.
+      <p className="text-ashTwo text-base w-[350px] md:w-[466px] leading-7 text-justify my-8">
+        Explore a world of creativity and innovation through my portfolio. With
+        a passion for design, I've curated a collection of my finest work to
+        showcase my skills and capabilities.
       </p>
 
       <section className="md:flex items-center">
