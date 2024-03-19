@@ -19,7 +19,7 @@ const MyPortfolio = () => {
 
       <section className="md:flex items-center">
         <Image
-          src="/imgOne.jpg"
+          src="/imageOne.png"
           alt="work sample"
           width={540}
           height={565}
@@ -31,7 +31,7 @@ const MyPortfolio = () => {
 
         <div className="flex items-center flex-wrap gap-y-6 gap-x-6 mt-6 mb:mt-0">
           <Image
-            src="/imgTwo.jpg"
+            src="/imageTwo.jpg"
             alt="work sample"
             width={256}
             height={268}
@@ -40,7 +40,7 @@ const MyPortfolio = () => {
             }}
           />
           <Image
-            src="/imgThree.jpg"
+            src="/imageThree.jpg"
             alt="work sample"
             width={256}
             height={268}
@@ -49,7 +49,7 @@ const MyPortfolio = () => {
             }}
           />
           <Image
-            src="/imgFour.jpg"
+            src="/imageFour.jpg"
             alt="work sample"
             width={256}
             height={268}
@@ -58,7 +58,7 @@ const MyPortfolio = () => {
             }}
           />
           <Image
-            src="/imgFive.jpg"
+            src="/imageFive.jpg"
             alt="work sample"
             width={256}
             height={268}
