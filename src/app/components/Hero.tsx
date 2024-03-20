@@ -12,12 +12,14 @@ const Hero = () => {
         <p className="text-secondaryTwo text-base">Hello, Welcome</p>
         <p className="text-[42px] text-white font-bold">My name is Juliet</p>
         <p className="text-ashTwo text-base w-80 text-justify md:w-[466px] leading-7">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour.
+          As the driving force behind our mission, I bring a passion for
+          innovation, a commitment to excellence, and a dedication to exceeding
+          your expectations with every project.
         </p>
         <div className="bg-secondaryTwo w-[123px] px-5 py-2 mt-4 mb-6 md:mb-0">
-          <p className="text-base whitespace-nowrap">Contact Me</p>
+          <a href="#contactMe" className="text-base whitespace-nowrap">
+            Contact Me
+          </a>
         </div>
       </section>
 

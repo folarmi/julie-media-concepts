@@ -27,16 +27,19 @@ const AboutMe = () => {
           About <span className=" text-secondaryTwo">Me</span>
         </p>
         <p className="text-ashTwo text-base w-[350px] text-justify md:w-[466px] leading-7">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour.
+          Dedicated, creative, and driven, I strive to bring your vision to life
+          through personalized solutions and unparalleled expertise, ensuring
+          your satisfaction every step of the way.
         </p>
         <p className="text-ashTwo text-basew-[350px] text-justify md:w-[466px] leading-7 mt-4">
-          Passages ofLorem Ipsum available, but the majority have suffered
-          alteration in some form, by injected humour.
+          Crafted with precision and fueled by a passion for excellence, I am
+          here to transform your ideas into impactful realities, delivering
+          results that exceed your expectations.
         </p>
         <div className="bg-secondaryTwo w-[123px] px-5 py-2 mt-4">
-          <p className="text-base whitespace-nowrap">Contact Me</p>
+          <a href="#contactMe" className="text-base whitespace-nowrap">
+            Contact Me
+          </a>
         </div>
       </section>
     </div>
