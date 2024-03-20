@@ -12,10 +12,11 @@ const AboutMe = () => {
       className="bg-primary px-10 md:px-40 py-24 md:flex justify-between items-center"
       id="about"
     >
-      <div className="bg-primary border-8 border-secondaryTwo rounded-3xl h-[300px] w-[300px] relative">
+      <div className="bg-primary border-8 border-secondaryTwo rounded-3xl h-[400px] w-[300px] relative">
         <Image
           src="/babe.JPG"
           alt="A picture of babe"
+          className="absolute bottom-6 left-6"
           width={300}
           height={50}
           style={imageStyle}
